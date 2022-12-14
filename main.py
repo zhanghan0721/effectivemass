@@ -60,7 +60,7 @@ ax6.set_xticklabels(['0','2','4','6'],fontname='Times New Roman',fontsize=25)
 plt.subplots_adjust(left=0.125, bottom=0.1, right=0.9, top=0.9, wspace=0, hspace=0.1)
 plt.savefig(r"C:\Users\zhang\Desktop\WXW\HSE.svg",format='svg')
 plt.show()
-#change unite
+#change unit
 
 for a in range(3):
   b = fitdata[a*3]
